@@ -86,6 +86,7 @@ body{
 }
 .wraper-div{
 	padding-bottom: 90px;
+	flex-wrap: wrap;
 }
 .white-box{
 	width: 570px;
