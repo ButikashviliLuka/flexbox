@@ -1,0 +1,143 @@
+@media (max-width: 1152px){
+	.wraper-div{
+		justify-content: center;
+		align-items: center;
+	}
+	.white-box{
+		margin-top: 30px;
+	}
+
+	.featured-div{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.featured-div1{
+		max-width: 965px;
+		width: 100%;
+	}
+	.featured-div1:nth-child(2){
+		margin-top: 20px;
+	}
+	.featured-p{
+		max-width: 600px;
+		width: 100%;
+	}
+	.gray-section{
+		padding-left: 30px;
+	}
+	.disappear0{
+		display: none;
+	}
+	.darker-gray-box{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	..image-wraper{
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 1024px){
+	.navigation{
+		display: none;
+	}
+	.disappear1{
+		display: none;
+	}
+	.featured-p{
+		max-width: 500px;
+		width: 100%;
+	}
+	.image-il{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	/*news*/
+	.navigation{
+		display: none;
+	}
+	.burger{
+       display: block;
+	}
+	.article-wraper:last-child{
+		display: none;
+	}
+	.video-wraper{
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.video:last-child{
+		margin-top: 30px;
+	}
+	.article-wraper{
+		width: 32%;
+	}
+	.article-wraper img{
+		width: 100%;
+	}
+	.article-wraper:nth-child(4){
+		margin-top: 30px;
+	}
+	.d-flex{
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 950px){
+	/*news*/
+	.text-list{
+	font-size: 22px;
+	line-height: 30px;
+	color: red;
+   }
+   .image-logo{
+   	width: 70px;
+   	bottom: 0;
+   }
+}
+
+@media (max-width: 768px){
+	.computer-logo{
+		width: 150px;
+		height: 100px;
+	}
+	.image-il{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.main-div{
+		width: 100px;
+		
+	}
+	.darker-gray-box{
+		
+	}
+	.image-div{
+
+	}
+	/*news*/
+	.article-wraper{
+		width: 48%;
+	}
+	.article-wraper:nth-child(3){
+		margin-top: 30px;
+	}
+}
+@media (max-width: 480px){
+	
+
+
+	/*news*/
+	.social-li:not(.active){
+		display: none;
+	}
+	.article-wraper{
+		width: 100%;
+	}
+	.article-wraper:nth-child(2){
+		margin-top: 30px;
+	}	
+}
